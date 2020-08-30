@@ -7,14 +7,31 @@
 </head>
 <body>
     <form>
-     <p>Credit Card Numbers</p>   
-     <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx">
-    </br>
-    </br>
-    </br>
-     <p>Expiry Date Month/Year</p>
-     <input id="expiry" type="month" min="2021-01" max="2024-12">
-      </div>
+       <p>Credit Card Numbers</p>   
+       <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx">
+     </br>
+     </br>
+     </br>
+       <p>Expiry Date Month/Year</p>
+       <input id="expiry" type="month" min="2021-01" max="2024-12">
+     </br>
+     </br>
+     </br>
+       <p>Security Code</p>
+       <input type="tel" maxlength="3" placeholder="CVV">
+     </br>
+     </br>
+     </br>
+       <p>Cardholder name</p>   
+       <input type="text" placeholder="Cardholder name" maxlength="25">
+     </br>
+     </br>
+     <p>I have read and agree with the privacy notice</p>
+      <input type="radio" id="privacy-notice" name="privacy" value="privacy" required="true">
+      <label for="privacy">I Agree</label></br></br>     
+     <button>submit</button>
+
+    </div>
       </form>
 </body>
 </html>
